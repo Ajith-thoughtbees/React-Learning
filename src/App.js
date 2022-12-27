@@ -3,6 +3,7 @@ import Content from './Components/Content';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Product from './Components/Product';
+import Forms from './Components/Form';
 let products = [
   {
       pID: 1, 
@@ -67,7 +68,8 @@ function App() {
     {/* <Header />
     <Content />
     <Footer /> */}
-  <Product id={products[0].pID} brand={products[0].brand} model={products[0].model}
+  <Forms />
+  {/* <Product id={products[0].pID} brand={products[0].brand} model={products[0].model}
   isAvailable ={products[0].isAvailable} desc={products[0].desc} date={products[0].Date} variant={products[0].variant}
   Verified ={products[0].verified} price= {products[0].price}
   ></Product>
@@ -86,7 +88,7 @@ function App() {
   <Product id={products[4].pID} brand={products[4].brand} model={products[4].model}
   isAvailable ={products[4].isAvailable} desc={products[4].desc} date={products[4].Date} variant={products[4].variant}
   Verified ={products[4].verified} price= {products[4].price}
-  ></Product>
+  ></Product> */}
     </div>
   );
 }
