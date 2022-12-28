@@ -21,7 +21,7 @@ return(
     <p className="price">&#x20B9;{data.price}</p>
  </div>
  <div className="col-md-3">
-    <p className="buy">Buy now</p>
+    <p className="buy">{data.buy}</p>
 </div>
 </div>
 </div>

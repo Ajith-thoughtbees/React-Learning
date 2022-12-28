@@ -1,6 +1,6 @@
 
   .container {
-    margin: 0px auto 20px;
+    margin: 30px auto 20px;
     background: #fff; 
     width: 900px;
     height:100px;
@@ -70,9 +70,8 @@
   
   .buy {
     display: inline-block;
-    position: absolute;
-    right: 308px;
-    top: 80px;
+    /* position: absolute; */
+    margin: 25px 25px 7px 50px;
     background-color: #ffa501;
     padding: 14px 35px 12px 35px;
     color: #fff;
